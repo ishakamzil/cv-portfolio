@@ -1,0 +1,205 @@
+/* start hello Part  */
+.helloPart{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.helloPart img{
+    max-width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.helloContent{
+    margin-left: 20px;
+    max-width: 700px;
+}
+
+.helloContent h2{
+ font-weight: 350;
+}
+
+.helloContent h3{
+    margin-top: -15px;
+    word-spacing: 5px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+   }
+
+  
+
+
+/* end hello Part  */
+
+
+/* start Education */
+   .cownt{
+    display: flex;
+    justify-content: center;
+   }
+
+   .education{
+    max-width: 920px;
+   }
+
+   .education h3{
+    text-align: initial;
+    margin-bottom: 35px;
+   }
+
+   .education .secAll{
+    display: flex;
+    text-align: initial;
+    padding: 20px 0;
+    border: 1px 0 0 0 solid;
+    border-top: 1px solid;
+    width: 920px;
+   }
+
+   .education .secAll .sec{
+    margin-right: 140px;
+    position: relative;
+   }
+
+   .education .secAll .sec::before{
+    content: " ";
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    border: 1.5px solid black;
+    border-radius: 50%;
+    background-color: white;
+    top: -28px;
+   }
+
+/* end Education */
+
+/* start big content */
+.bigContent{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 40px 0;
+    
+}
+
+.bigContent h3{
+    margin-bottom: 30px;
+}
+
+.bigContentPart1{
+width: 350px;
+}
+
+.bigContentPart1 .contact{
+   text-decoration: none;
+   padding: 0;
+    }
+
+    .bigContentPart1 .contact li{
+        display: flex;
+        padding-top: 8px;
+        padding-bottom: -8px;
+        max-width: 300px;
+         }
+         .bigContentPart1 .contact li:not(:last-child){
+            border-bottom: 1px solid;
+             }
+         .bigContentPart1 .contact li img{
+            margin-right: 20px;
+             }
+
+             .bigContentPart1 .expertise li{
+                padding-bottom: 5px;
+               
+                 }
+
+.bigContentPart2{
+ width: 570px;
+}
+
+.bigContentPart2 .secAll{
+   padding-left: 20px;
+   border-left: 1px solid;
+   }
+
+   .bigContentPart2 .sec{
+   position: relative;
+    }
+
+   .bigContentPart2 .secAll .sec::before{
+    content: " ";
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    border: 1.5px solid black;
+    border-radius: 50%;
+    background-color: white;
+    left: -28px;
+
+    }
+ 
+
+/* end big content */
+
+@media (max-width: 500px) {
+    .helloPart{
+        display: block;
+    }
+
+    .helloPart img{
+        max-width: 120px;
+        height: 120px;
+    }
+
+      .education{
+    max-width: 100%;
+   }
+   .education .secAll{
+   flex-wrap: wrap;
+   max-width: 100%;
+   }
+    .education .secAll .sec{
+   margin-bottom: 30px;
+   }
+
+   .bigContent{
+    display: block;
+    
+}
+.bigContentPart2 .sec{
+    max-width: 500px;
+     }
+
+     .cvPortfolio{
+     display: block !important;
+     width: 100%;
+    }
+    
+    .cvPortfolio .container{
+        box-shadow: none !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+}
+
+.cvPortfolio{
+    display: flex;
+    justify-content: center;
+}
+
+.cvPortfolio .container{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+
+
+
